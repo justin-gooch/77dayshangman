@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+		<script type="text/javascript" src="hangman.js"></script>
+		<LINK href="hangman.css" rel="stylesheet" type="text/css">
+		<title>Hangman: 77 Days Edition</title>
+	</head>
+	<body>
+	<div id="container">
+		<center><a href="http://77days.net">Home</a> | <a href="http://77days.net/forum">Forum</a></center>
+		<h2>Hangman: 77 Days Edition</h2>
+		<div id="hangmanWordList"></div>
+		<br />
+		Letter Guess: <input type="text" name="letterGuess" id='letterGuess' maxlength='1'>
+		<input type="submit" value="guess" id='guessButton'>
+		<br /><br />
+		<button id="newWord">New Word</button>
+		<br /><br />
+		<div id="imageDiv"></div>		
+		<div id="usedLetters"></div>
+		<br /><br />
+	</div>
+	
+	</body>
+</html>

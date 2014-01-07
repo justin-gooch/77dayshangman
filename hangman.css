@@ -1,0 +1,29 @@
+.hangmanLetters
+{
+	display:inline-block;
+	margin:2px;
+}
+
+#container {
+	width:300px; 
+	margin: 0 auto;
+	background-color:#DEDEDE; 
+	padding: 5px 30px 12px 30px; 
+	height:550px;
+}
+
+body {
+	background-color:white;
+}
+
+#imageDiv {
+margin: auto;
+}
+
+#usedLetters
+{
+	margin:auto;
+}
+#newWord {
+
+}
